@@ -1,0 +1,18 @@
+Collecting Requirements
+- Login via github
+- Navigate to different categories via sidebar menu
+- Create, edit, delete posts
+- Create preview screen for posts
+- Sync data to repository: sktelecom.github.io
+
+Functional Requirements
+  - We need to build a gui-based content management app
+    - Users are logged in to main via github's Oauth
+    - Users can navigate to different categories via menu
+    - Users can edit, delete and add posts
+    - Users can preview created post via local host
+    - All changes should be uploaded to github via pull request
+    - All data should be synced to sktelecom.github.io
+
+Non-Functional Requirements
+  - We will use flutter to hasten rapid release of app
