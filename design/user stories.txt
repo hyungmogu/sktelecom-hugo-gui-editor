@@ -1,0 +1,27 @@
+User Stories
+  - Epic 1 - Syncing to server
+    - Users are synced to sktelecom.github.io on start
+    - Users are synced to sktelecom-github.io every minute to stay up to date
+    - Users are shown button on top right on sync status
+
+  - Epic 2 - Login
+    - Users are logged in to main via github's Oauth only
+    - Users are logged in as long as the software window is left on or login time expires
+    - Users are shown green alert saying "Login is successful" before going into main page
+    - Users are shown red alert saying "Login has failed" with error details if login fails
+
+  - Epic 3 - Category Navigation
+    - Users by default are navigated to all categories
+    - Users can navigate to different categories via menu
+    - Users can add new category via menu
+    - Users are shown a popup with input field for category name upon clicking "Add new category"
+    - Users are given new category upon clicking "Submit" on add new category popup
+
+  - Epic 4 - Post creation / edit / delete
+    - Users can edit, delete and add posts
+    - Users can preview created post via local host
+    - Users are synced to sktelecom.github.io before submit
+    - Users are asked to choose new file name / title if it already exists
+    - Users posts are commited if all is valid
+    - User posts are automatically uploaded to github via branch and creates a pull request
+    - Users should be lead back to previous page on create / edit
